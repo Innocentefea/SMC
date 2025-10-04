@@ -12,8 +12,8 @@ const REQUIRED_HEADERS = {
     'Accept': 'application/json',
 };
 
-// Define specific error response structures based on test run results
-// Error for when the field is missing (backend returned "Required")
+// Define specific error response structures based on test run results.
+// Error for when the field is missing (backend returned "Required").
 const REQUIRED_ERROR_RESPONSE = {
     success: false,
     error: {
