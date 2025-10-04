@@ -21,7 +21,7 @@ const REQUIRED_ERROR_RESPONSE = {
     }
 };
 
-// Error for when the field is present but empty or invalid format
+// Error for when the field is present but empty or invalid format.
 const INVALID_EMAIL_ERROR_RESPONSE = {
     success: false,
     error: {
