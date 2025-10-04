@@ -69,7 +69,7 @@ const otpTestData = [
     },
     {
         name: 'Negative Test Case: Non-existent user email (Security check)',
-        // NOTE: The API returned 200 OK to prevent user enumeration attacks.
+        // NOTE: The API returned 200 OK to prevent user enumeration attacks
         expectedStatus: 200, 
         data: {
             email: `nonexistent-${faker.string.uuid()}@example.com` 
@@ -78,7 +78,7 @@ const otpTestData = [
     },
     {
         name: 'Negative Test Case: Email with max length (boundary test)',
-        // NOTE: The API returned 200 OK, suggesting no server-side validation on length.
+        // NOTE: The API returned 200 OK, suggesting no server-side validation on length
         expectedStatus: 200, 
         data: {
             email: faker.string.alphanumeric(250) + '@longdomain.com' 
@@ -93,7 +93,7 @@ test.describe('OTP Request Endpoint Validation', () => {
         const response = await request.get(OTP_ENDPOINT, {
             headers: REQUIRED_HEADERS
         });
-        // The API returned 404, indicating the route handler for GET does not exist.
+        // The API returned 404, indicating the route handler for GET does not exist
         expect(response.status()).toBe(404); 
     });
     
@@ -103,8 +103,8 @@ test.describe('OTP Request Endpoint Validation', () => {
             data: { email: faker.internet.email() },
         });
         
-        // The API is expected to return 400/415, but you reported 200. 
-        // We will assert for 200, but this should be flagged as an API defect.
+        // The API is expected to return 400/415, but you reported 200
+        // We will assert for 200, but this should be flagged as an API defect
         const expectedFailureStatuses = [200, 400, 415]; 
         expect(expectedFailureStatuses).toContain(response.status()); 
     });
