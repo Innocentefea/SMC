@@ -1,0 +1,2 @@
+Status: 422 (Expected: 422) for Negative Test Case: Invalid email format (missing @)
+Failure Body Verified: {"email":["Invalid email"]}

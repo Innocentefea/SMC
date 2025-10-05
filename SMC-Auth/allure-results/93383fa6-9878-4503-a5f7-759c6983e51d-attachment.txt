@@ -1,0 +1,2 @@
+Status: 422 (Expected: 422) for Negative Test Case: Empty string email in request body (Invalid Check)
+Failure Body Verified: {"email":["Invalid email"]}
