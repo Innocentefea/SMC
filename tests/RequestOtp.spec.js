@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { faker } from '@faker-js/faker';
 
-// --- Configuration ---
+// Configuration
 const BASE_URL = 'https://auth.staging.smcdao.com';
 const OTP_REQUEST_PATH = '/api/auth/request';
 const OTP_ENDPOINT = `${BASE_URL}${OTP_REQUEST_PATH}`;
@@ -12,8 +12,8 @@ const REQUIRED_HEADERS = {
     'Accept': 'application/json',
 };
 
-// Define specific error response structures based on test run results.
-// Error for when the field is missing (backend returned "Required").
+// Define specific error response structures based on test run results
+// Error for when the field is missing (backend returned "Required")
 const REQUIRED_ERROR_RESPONSE = {
     success: false,
     error: {
@@ -21,7 +21,7 @@ const REQUIRED_ERROR_RESPONSE = {
     }
 };
 
-// Error for when the field is present but empty or invalid format.
+// Error for when the field is present but empty or invalid format
 const INVALID_EMAIL_ERROR_RESPONSE = {
     success: false,
     error: {
@@ -29,7 +29,7 @@ const INVALID_EMAIL_ERROR_RESPONSE = {
     }
 };
  
-// Test Data Array for Multiple Scenarios (UPDATED EXPECTED STATUS CODES)
+// Test Data Array for Multiple Scenarios
 const otpTestData = [
     {
         name: 'Positive Test Case: Valid email requests OTP successfully',

@@ -1,0 +1,2 @@
+Status: 200 (Expected: 200) for Positive Test Case: Valid email requests OTP successfully
+Success Body: {"message":"OTP sent successfully"}

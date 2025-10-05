@@ -1,0 +1,2 @@
+Status: 200 (Expected: 200) for Negative Test Case: Email with max length (boundary test)
+Success Body: {"message":"OTP sent successfully"}
