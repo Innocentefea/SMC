@@ -1,8 +1,9 @@
-import { test, expect } from '@playwright/test';
-import { faker } from '@faker-js/faker';
+const { test, expect } = require('@playwright/test');
+const { faker } = require('@faker-js/faker');
+const { TEST_USER_EMAIL } = require('../test-data.js');
 
 // Configuration
-const BASE_URL = 'https://auth.staging.smcdao.com';
+const BASE_URL = 'https://funmi-auth.smcdao.com';
 const OTP_REQUEST_PATH = '/api/auth/request';
 const OTP_ENDPOINT = `${BASE_URL}${OTP_REQUEST_PATH}`;
 
@@ -35,7 +36,8 @@ const otpTestData = [
         name: 'Positive Test Case: Valid email requests OTP successfully',
         expectedStatus: 200, 
         data: {
-            email: faker.internet.email(), // Unique email
+            // CRITICAL CHANGE: Use the fixed test email for verification flow
+            email: TEST_USER_EMAIL, 
         },
         scenarioType: 'success'
     },
@@ -146,8 +148,8 @@ test.describe('OTP Request Endpoint Validation', () => {
     // Critical Security Test: Rate Limiting
     test('Security: Should enforce rate limiting (429 Too Many Requests)', async ({ request }) => {
         
-        // Use a static, valid email for repeated requests
-        const testEmail = 'rate.limit.test@smcdao.com'; 
+        // Use the globally defined static test email for consistent security testing
+        const testEmail = TEST_USER_EMAIL; 
         const payload = { email: testEmail };
 
         // Send a request successfully to initialize the count
@@ -172,6 +174,6 @@ test.describe('OTP Request Endpoint Validation', () => {
         // This is a warning state: the rate limit was not hit. 
         console.warn('WARNING: Rate limit (429) was not enforced after 10 attempts. This is a security risk.');
         // Fail the test if the 429 status was never received after all attempts
-        expect(false).toBe(false); 
+        expect(false).toBe(true); 
     }, { timeout: 15000 }); // Increased timeout for more sequential requests
 });

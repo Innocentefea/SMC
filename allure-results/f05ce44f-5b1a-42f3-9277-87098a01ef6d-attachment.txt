@@ -1,2 +1,0 @@
-Status: 200 (Expected: 200) for Negative Test Case: Non-existent user email (Security check)
-Success Body: {"message":"OTP sent successfully"}

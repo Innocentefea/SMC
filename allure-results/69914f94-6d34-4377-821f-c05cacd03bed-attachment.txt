@@ -1,0 +1,13 @@
+Sending request to https://funmi-auth.smcdao.com/api/auth/verify
+Payload: {"code":"230777"}
+Received Status Code: 422 (Expected: 422)
+Response Body:
+{
+  "success": false,
+  "error": {
+    "email": [
+      "Required"
+    ]
+  }
+}
+Failure Body Verified: {"success":false,"error":{"email":["Required"]}}
