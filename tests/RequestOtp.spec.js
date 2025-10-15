@@ -47,7 +47,7 @@ const otpTestData = [
         expectedStatus: 422, 
         data: {}, 
         scenarioType: 'failure',
-        expectedBodyMatch: REQUIRED_ERROR_RESPONSE, // Expecting "Required"
+        expectedBodyMatch: REQUIRED_ERROR_RESPONSE,
     },
     {
         name: 'Negative Test Case: Empty string email in request body (Invalid Check)',
@@ -57,7 +57,7 @@ const otpTestData = [
             email: ''
         },
         scenarioType: 'failure',
-        expectedBodyMatch: INVALID_EMAIL_ERROR_RESPONSE, // Expecting "Invalid email"
+        expectedBodyMatch: INVALID_EMAIL_ERROR_RESPONSE,
     },
     {
         name: 'Negative Test Case: Invalid email format (missing @)',
@@ -67,7 +67,7 @@ const otpTestData = [
             email: 'useratdomaincom'
         },
         scenarioType: 'failure',
-        expectedBodyMatch: INVALID_EMAIL_ERROR_RESPONSE, // Expecting "Invalid email"
+        expectedBodyMatch: INVALID_EMAIL_ERROR_RESPONSE,
     },
     {
         name: 'Negative Test Case: Non-existent user email (Security check)',
@@ -105,7 +105,6 @@ test.describe('OTP Request Endpoint Validation', () => {
             data: { email: faker.internet.email() },
         });
         
-        // The API is expected to return 400/415, but you reported 200
         // We will assert for 200, but this should be flagged as an API defect
         const expectedFailureStatuses = [200, 400, 415]; 
         expect(expectedFailureStatuses).toContain(response.status()); 
@@ -175,5 +174,5 @@ test.describe('OTP Request Endpoint Validation', () => {
         console.warn('WARNING: Rate limit (429) was not enforced after 10 attempts. This is a security risk.');
         // Fail the test if the 429 status was never received after all attempts
         expect(false).toBe(true); 
-    }, { timeout: 15000 }); // Increased timeout for more sequential requests
+    }, { timeout: 15000 });
 });

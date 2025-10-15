@@ -1,0 +1,37 @@
+{
+  "message": "OTP verified successfully",
+  "tokens": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21ncnNwNnZjMDAxeXAwMDg3bWljNDY2biIsImVtYWlsIjoiaW5ub2NlbnRlZmVha3BveWlib0BnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsInBlcm1zIjpbXSwiaWF0IjoxNzYwNTIwOTE4LCJleHAiOjE3NjA1MjQ1MTgsImF1ZCI6InNtYy11c2VycyIsImlzcyI6InNtYy1hdXRoLXNlcnZpY2UifQ.zmIIoQg2AuBVD0HiNQIv2BonJMulmGhphmGOguShh_0",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21ncnNwNnZjMDAxeXAwMDg3bWljNDY2biIsInBlcm1zIjpbXSwiaWF0IjoxNzYwNTIwOTE4LCJhdWQiOiJzbWMtdXNlcnMiLCJpc3MiOiJzbWMtYXV0aC1zZXJ2aWNlIn0.IoYDXB9XB6K_sw-RA_QS3Q1PPFgEHHv7Qh_hyr49758"
+  }
+}
+Status Code: 200
+{
+  "message": "Client created successfully",
+  "client": {
+    "id": "cmgrsp7hp002ep008nkzbsqyg",
+    "name": "Cindy Larson-Rutherford",
+    "description": "Auth-Testing",
+    "redirect_uris": [
+      "http://localhost:3000"
+    ],
+    "authorized_js_origins": [],
+    "permissions": [
+      "profile:read"
+    ],
+    "is_active": true,
+    "created_at": "2025-10-15T09:35:19.597Z",
+    "updated_at": "2025-10-15T09:35:19.597Z"
+  },
+  "client_secret": "34851407598711959068311667934139"
+}
+Status Code: 201
+{
+  "success": false,
+  "error": {
+    "client_id": [
+      "Required"
+    ]
+  }
+}
+Status Code: 422
