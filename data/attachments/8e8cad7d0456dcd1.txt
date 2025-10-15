@@ -1,0 +1,13 @@
+{
+  "user": {
+    "id": "cmggmbzbd0001o108nd1csfg0",
+    "email": "innocentefeakpoyibo@gmail.com",
+    "first_name": "Myah",
+    "last_name": "Klocko",
+    "role": "user",
+    "username": "dup_user_1760520780258",
+    "kyc_verified": false,
+    "created_at": "2025-10-07T13:51:36.842Z"
+  }
+}
+Status Code: 200
