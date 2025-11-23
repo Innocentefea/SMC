@@ -1,0 +1,32 @@
+{
+  "message": "OTP verified successfully",
+  "tokens": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pYnl0cTJsMDAyM21sMDgwOTA3Mm1sMSIsImVtYWlsIjoiaW5ub2NlbnRlZmVha3BveWlib0BnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsInBlcm1zIjpbXSwiaWF0IjoxNzYzOTE3MzE0LCJleHAiOjE3NjM5MjA5MTQsImF1ZCI6InNtYy11c2VycyIsImlzcyI6InNtYy1hdXRoLXNlcnZpY2UifQ.-KWLKP2umSOp8teg3D1VUPciryYtPNWm9tOiro6AXlQ",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pYnl0cTJsMDAyM21sMDgwOTA3Mm1sMSIsInBlcm1zIjpbXSwiaWF0IjoxNzYzOTE3MzE0LCJhdWQiOiJzbWMtdXNlcnMiLCJpc3MiOiJzbWMtYXV0aC1zZXJ2aWNlIn0.bKrBr1xRaWS_fg3M2VdXmSMz-c9TWOY5erRaU9a71lU"
+  }
+}
+Status Code: 200
+{
+  "message": "Client created successfully",
+  "client": {
+    "id": "cmibytqwg002hml08qolk5zke",
+    "name": "Pearl Steuber",
+    "description": "Auth-Testing",
+    "redirect_uris": [
+      "http://localhost:3000"
+    ],
+    "authorized_js_origins": [],
+    "permissions": [
+      "profile:read"
+    ],
+    "is_active": true,
+    "created_at": "2025-11-23T17:01:54.929Z",
+    "updated_at": "2025-11-23T17:01:54.929Z"
+  },
+  "client_secret": "57393632069449343656161127457844"
+}
+Status Code: 201
+{
+  "message": "Redirect URL not allowed"
+}
+Status Code: 403

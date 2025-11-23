@@ -1,0 +1,27 @@
+
+Verifying OTP to get access token...
+Access token acquired successfully.
+
+
+Test: Create a new client with valid data
+Status: 201
+{
+  "message": "Client created successfully",
+  "client": {
+    "id": "cmibyhgv7001rml082kx81imq",
+    "name": "Jesse Ruecker",
+    "description": "Auth-Testing",
+    "redirect_uris": [
+      "http://localhost:3000"
+    ],
+    "authorized_js_origins": [],
+    "permissions": [
+      "profile:read"
+    ],
+    "is_active": true,
+    "created_at": "2025-11-23T16:52:22.052Z",
+    "updated_at": "2025-11-23T16:52:22.052Z"
+  },
+  "client_secret": "98634517989130002616013117174684"
+}
+Client credentials saved to test-data.json

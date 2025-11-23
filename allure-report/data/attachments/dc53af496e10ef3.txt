@@ -1,0 +1,33 @@
+{
+  "message": "OTP verified successfully",
+  "tokens": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pYnl0cHlwMDAxdm1sMDhmaGlocTU5aCIsImVtYWlsIjoiaW5ub2NlbnRlZmVha3BveWlib0BnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsInBlcm1zIjpbXSwiaWF0IjoxNzYzOTE3MzEzLCJleHAiOjE3NjM5MjA5MTMsImF1ZCI6InNtYy11c2VycyIsImlzcyI6InNtYy1hdXRoLXNlcnZpY2UifQ.kyFpHnv4_76Exccv3kjDl0GgqcaVAxxMrcqP_4zJfSg",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pYnl0cHlwMDAxdm1sMDhmaGlocTU5aCIsInBlcm1zIjpbXSwiaWF0IjoxNzYzOTE3MzEzLCJhdWQiOiJzbWMtdXNlcnMiLCJpc3MiOiJzbWMtYXV0aC1zZXJ2aWNlIn0.jYmvN3nPzYpTnOigkpt8z61Hi0MQOv1qZVyb2OV34es"
+  }
+}
+Status Code: 200
+{
+  "message": "Client created successfully",
+  "client": {
+    "id": "cmibytqr2002bml083jx294ke",
+    "name": "Jordan Roob-Corwin",
+    "description": "Auth-Testing",
+    "redirect_uris": [
+      "http://localhost:3000"
+    ],
+    "authorized_js_origins": [],
+    "permissions": [
+      "profile:read"
+    ],
+    "is_active": true,
+    "created_at": "2025-11-23T17:01:54.734Z",
+    "updated_at": "2025-11-23T17:01:54.734Z"
+  },
+  "client_secret": "32902944912379414007175905372536"
+}
+Status Code: 201
+{
+  "message": "You are not authenticated",
+  "reason": "bad_token"
+}
+Status Code: 401

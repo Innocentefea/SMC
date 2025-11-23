@@ -1,0 +1,20 @@
+
+STEP 1: Verifying OTP...
+Verify OTP Response: {
+  "message": "OTP verified successfully",
+  "tokens": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pYnoxM2JuMDAydG1sMDg5c2ozcGQyZiIsImVtYWlsIjoiaW5ub2NlbnRlZmVha3BveWlib0BnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsInBlcm1zIjpbXSwiaWF0IjoxNzYzOTE3NjU3LCJleHAiOjE3NjM5MjEyNTcsImF1ZCI6InNtYy11c2VycyIsImlzcyI6InNtYy1hdXRoLXNlcnZpY2UifQ.PIhMdAxRfsV8KPF3Z0P_NFlemf2EYpskjm5cBDkR9N4",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pYnoxM2JuMDAydG1sMDg5c2ozcGQyZiIsInBlcm1zIjpbXSwiaWF0IjoxNzYzOTE3NjU3LCJhdWQiOiJzbWMtdXNlcnMiLCJpc3MiOiJzbWMtYXV0aC1zZXJ2aWNlIn0.WCoHTGW5Pp6SoHJH7R7IQleJudJ_xi3nNAjl6lBSXuw"
+  }
+}
+Status Code: 200
+
+Using saved redirect URL from test-data.json...
+Extracted redirect token: cmibytrl7002nml08mh7m66r6
+Saved token expired — requesting new one...
+
+STEP 2: Requesting fresh redirect URL...
+Connect Client Response: {
+  "message": "Not Found - /api/client/auth/connect"
+}
+Status Code: 404

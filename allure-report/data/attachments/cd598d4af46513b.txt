@@ -1,0 +1,20 @@
+
+STEP 1: Verifying OTP...
+Verify OTP Response: {
+  "message": "OTP verified successfully",
+  "tokens": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pYzFtNmNwMDAyem1sMDhocDJsNTJjaCIsImVtYWlsIjoiaW5ub2NlbnRlZmVha3BveWlib0BnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsInBlcm1zIjpbXSwiaWF0IjoxNzYzOTIyMDAwLCJleHAiOjE3NjM5MjU2MDAsImF1ZCI6InNtYy11c2VycyIsImlzcyI6InNtYy1hdXRoLXNlcnZpY2UifQ.Ombf-uU95iyc2pbiY3qpO_tznKGZRoLLczbWHF4P_VE",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pYzFtNmNwMDAyem1sMDhocDJsNTJjaCIsInBlcm1zIjpbXSwiaWF0IjoxNzYzOTIyMDAwLCJhdWQiOiJzbWMtdXNlcnMiLCJpc3MiOiJzbWMtYXV0aC1zZXJ2aWNlIn0.wAfcw7PnQ3qiUbEMbNslxrw-gERAXv_RT93_vn-xcVg"
+  }
+}
+Status Code: 200
+
+Using saved redirect URL from test-data.json...
+Extracted redirect token: cmibytrl7002nml08mh7m66r6
+Saved token expired — requesting new one...
+
+STEP 2: Requesting fresh redirect URL...
+Connect Client Response: {
+  "message": "Redirect URL not allowed"
+}
+Status Code: 403

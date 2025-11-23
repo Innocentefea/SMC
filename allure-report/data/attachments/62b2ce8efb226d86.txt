@@ -1,0 +1,2 @@
+Status: 422 (Expected: 422) for Negative Test Case: Missing email in request body (Required Check)
+Failure Body Verified: {"email":["Required"]}

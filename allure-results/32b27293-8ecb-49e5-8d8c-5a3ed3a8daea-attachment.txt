@@ -1,0 +1,12 @@
+Sending request to https://funmi-auth.smcdao.com/api/auth/verify
+Payload: {"email":"innocentefeakpoyibo@gmail.com"}
+Received Status Code: 422
+Response Body: {
+  "success": false,
+  "error": {
+    "code": [
+      "Required"
+    ]
+  }
+}
+Failure Verified.
