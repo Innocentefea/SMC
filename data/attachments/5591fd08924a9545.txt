@@ -1,0 +1,27 @@
+
+Verifying OTP to get access token...
+Access token acquired successfully.
+
+
+Test: Create a client with multiple valid permissions
+Status: 201
+{
+  "message": "Client created successfully",
+  "client": {
+    "id": "cmim9vkim01aoml08gzc2uram",
+    "name": "Dr. Otis Wilkinson",
+    "description": "Full Permissions Client",
+    "redirect_uris": [
+      "https://app.example.com"
+    ],
+    "authorized_js_origins": [],
+    "permissions": [
+      "profile:read"
+    ],
+    "is_active": true,
+    "created_at": "2025-11-30T22:08:57.502Z",
+    "updated_at": "2025-11-30T22:08:57.502Z"
+  },
+  "client_secret": "69886662470951155185670749746031"
+}
+Client credentials saved to test-data.json

@@ -1,0 +1,32 @@
+{
+  "message": "OTP verified successfully",
+  "tokens": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTl2aWI0MDE5c21sMDh4MXZkZGpnZyIsImVtYWlsIjoiaW5ub2NlbnRlZmVha3BveWlib0BnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTQwNTM0LCJleHAiOjE3NjQ1NDQxMzQsImF1ZCI6InNtYy11c2VycyIsImlzcyI6InNtYy1hdXRoLXNlcnZpY2UifQ.NtSlSm87UAH_SNSGjtMxTLSYGIH_BXDxjVShdMwyzLY",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTl2aWI0MDE5c21sMDh4MXZkZGpnZyIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTQwNTM0LCJhdWQiOiJzbWMtdXNlcnMiLCJpc3MiOiJzbWMtYXV0aC1zZXJ2aWNlIn0.6xZBD3MnttmJ4SNB2wHEgGVIUGIVie2UoDqnerYLHpY"
+  }
+}
+Status Code: 200
+{
+  "message": "Client created successfully",
+  "client": {
+    "id": "cmim9vix301a0ml08p5mmkjzd",
+    "name": "Dave Bailey Sr.",
+    "description": "Auth-Testing",
+    "redirect_uris": [
+      "http://localhost:3000"
+    ],
+    "authorized_js_origins": [],
+    "permissions": [
+      "profile:read"
+    ],
+    "is_active": true,
+    "created_at": "2025-11-30T22:08:55.432Z",
+    "updated_at": "2025-11-30T22:08:55.432Z"
+  },
+  "client_secret": "98615303136916762986081181725918"
+}
+Status Code: 201
+{
+  "message": "Client not found"
+}
+Status Code: 404

@@ -1,0 +1,15 @@
+[Missing Fields] Status Code: 422
+[Missing Fields] Response: {
+  "success": false,
+  "error": {
+    "first_name": [
+      "Required"
+    ],
+    "last_name": [
+      "Required"
+    ],
+    "username": [
+      "The username field is required"
+    ]
+  }
+}

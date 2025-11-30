@@ -1,0 +1,11 @@
+Sending request to https://funmi-auth.smcdao.com/api/auth/verify
+Payload: {"email":"innocentefeakpoyibo@gmail.com","code":"675432"}
+Received Status Code: 200
+Response Body: {
+  "message": "OTP verified successfully",
+  "tokens": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTl2bXk1MDFiZW1sMDgwYWhlMmgwOSIsImVtYWlsIjoiaW5ub2NlbnRlZmVha3BveWlib0BnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTQwNTQwLCJleHAiOjE3NjQ1NDQxNDAsImF1ZCI6InNtYy11c2VycyIsImlzcyI6InNtYy1hdXRoLXNlcnZpY2UifQ.WWbIXiUONYNNBYel3zUVmmDbHwN0fbzX1Sw25q7bG_A",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTl2bXk1MDFiZW1sMDgwYWhlMmgwOSIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTQwNTQwLCJhdWQiOiJzbWMtdXNlcnMiLCJpc3MiOiJzbWMtYXV0aC1zZXJ2aWNlIn0.Itk1b_dP7F32X3NLwTvKr8Cc62hARrrCJ0KY4L8AoJM"
+  }
+}
+Success: OTP verified successfully
