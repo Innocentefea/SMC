@@ -1,0 +1,32 @@
+{
+  "message": "OTP verified successfully",
+  "tokens": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTVicnN5MDB3aW1sMDhjM2I3YjY0byIsImVtYWlsIjoiaW5ub2NlbnRlZmVha3BveWlib0BnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTMyODk1LCJleHAiOjE3NjQ1MzY0OTUsImF1ZCI6InNtYy11c2VycyIsImlzcyI6InNtYy1hdXRoLXNlcnZpY2UifQ.f95pRxEb5_6zZYIfnMfTBgv_z75nR_UGPg6mFkUUT44",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTVicnN5MDB3aW1sMDhjM2I3YjY0byIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTMyODk1LCJhdWQiOiJzbWMtdXNlcnMiLCJpc3MiOiJzbWMtYXV0aC1zZXJ2aWNlIn0.Qx2QNWWuaUqcbqpena8mQnWzyzuH53BnR4X7FkbZwcM"
+  }
+}
+Status Code: 200
+{
+  "message": "Client created successfully",
+  "client": {
+    "id": "cmim5btu000wuml08obn08ywh",
+    "name": "Felicia Farrell MD",
+    "description": "Auth-Testing",
+    "redirect_uris": [
+      "http://localhost:3000"
+    ],
+    "authorized_js_origins": [],
+    "permissions": [
+      "profile:read"
+    ],
+    "is_active": true,
+    "created_at": "2025-11-30T20:01:37.992Z",
+    "updated_at": "2025-11-30T20:01:37.992Z"
+  },
+  "client_secret": "32704044545237995251122811547458"
+}
+Status Code: 201
+{
+  "message": "Client not found"
+}
+Status Code: 404

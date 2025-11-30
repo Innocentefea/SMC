@@ -1,5 +1,0 @@
-[No Token] Status Code: 401
-[No Token] Response: {
-  "message": "You are not authenticated",
-  "reason": "bad_token"
-}

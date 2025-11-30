@@ -1,8 +1,0 @@
-Sending request to https://funmi-auth.smcdao.com/api/auth/verify
-Payload: {"email":"innocentefeakpoyibo@gmail.com","code":"999999"}
-Received Status Code: 403 (Expected: 403)
-Response Body:
-{
-  "message": "The provided code is invalid"
-}
-Failure Body Verified: {"message":"The provided code is invalid"}

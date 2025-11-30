@@ -1,0 +1,37 @@
+{
+  "message": "OTP verified successfully",
+  "tokens": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTVicnZnMDB3bW1sMDhlZ2JwZW9udCIsImVtYWlsIjoiaW5ub2NlbnRlZmVha3BveWlib0BnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTMyODk1LCJleHAiOjE3NjQ1MzY0OTUsImF1ZCI6InNtYy11c2VycyIsImlzcyI6InNtYy1hdXRoLXNlcnZpY2UifQ.w8P0LjAX0ewlr0NU6EW4WDRbmboguMV88bGH0J6EVhY",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTVicnZnMDB3bW1sMDhlZ2JwZW9udCIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTMyODk1LCJhdWQiOiJzbWMtdXNlcnMiLCJpc3MiOiJzbWMtYXV0aC1zZXJ2aWNlIn0.zAxGkImP1MUYSKy22j7z4m8j_QSAO6O1k6qgwbicPQY"
+  }
+}
+Status Code: 200
+{
+  "message": "Client created successfully",
+  "client": {
+    "id": "cmim5bu0p00x0ml08c0zmbzx1",
+    "name": "Kelvin Friesen",
+    "description": "Auth-Testing",
+    "redirect_uris": [
+      "http://localhost:3000"
+    ],
+    "authorized_js_origins": [],
+    "permissions": [
+      "profile:read"
+    ],
+    "is_active": true,
+    "created_at": "2025-11-30T20:01:38.233Z",
+    "updated_at": "2025-11-30T20:01:38.233Z"
+  },
+  "client_secret": "32392043577185891843094426535671"
+}
+Status Code: 201
+{
+  "success": false,
+  "error": {
+    "redirect_uri": [
+      "Required"
+    ]
+  }
+}
+Status Code: 422

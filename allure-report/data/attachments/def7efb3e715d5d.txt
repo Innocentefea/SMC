@@ -1,9 +1,0 @@
-[Duplicate Username] Status Code: 422
-[Duplicate Username] Response: {
-  "success": false,
-  "error": {
-    "username": [
-      "The username you provided is already in use."
-    ]
-  }
-}

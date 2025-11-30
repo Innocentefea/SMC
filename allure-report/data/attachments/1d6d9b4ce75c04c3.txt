@@ -1,0 +1,37 @@
+{
+  "message": "OTP verified successfully",
+  "tokens": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTVicmNxMDB3ZW1sMDhubWpuaTluOSIsImVtYWlsIjoiaW5ub2NlbnRlZmVha3BveWlib0BnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTMyODk0LCJleHAiOjE3NjQ1MzY0OTQsImF1ZCI6InNtYy11c2VycyIsImlzcyI6InNtYy1hdXRoLXNlcnZpY2UifQ.AzIkiISUYPwFMuvo-D-SEBeS__Et59vepzd7S78e22U",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTVicmNxMDB3ZW1sMDhubWpuaTluOSIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTMyODk0LCJhdWQiOiJzbWMtdXNlcnMiLCJpc3MiOiJzbWMtYXV0aC1zZXJ2aWNlIn0.SOqJI8M8dxYBvPdlwu8im-HNTDQZLNMWmitEPdM1hjA"
+  }
+}
+Status Code: 200
+{
+  "message": "Client created successfully",
+  "client": {
+    "id": "cmim5bt8f00woml08nsks5w7s",
+    "name": "Ervin VonRueden-Klein",
+    "description": "Auth-Testing",
+    "redirect_uris": [
+      "http://localhost:3000"
+    ],
+    "authorized_js_origins": [],
+    "permissions": [
+      "profile:read"
+    ],
+    "is_active": true,
+    "created_at": "2025-11-30T20:01:37.215Z",
+    "updated_at": "2025-11-30T20:01:37.215Z"
+  },
+  "client_secret": "13381253571613955832577084031231"
+}
+Status Code: 201
+{
+  "success": false,
+  "error": {
+    "client_id": [
+      "Required"
+    ]
+  }
+}
+Status Code: 422
