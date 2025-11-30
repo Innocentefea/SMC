@@ -21,7 +21,8 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@faker-js/faker": "^10.0.0",
-    "dotenv": "^17.2.3"
-  }
+  "@dlenroc/testrail": "git+https://github.com/<Innocentefea>/testrail.git",
+  "@faker-js/faker": "^10.0.0",
+  "dotenv": "^17.2.3"
+}
 }
