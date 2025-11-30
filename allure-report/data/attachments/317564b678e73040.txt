@@ -1,0 +1,33 @@
+{
+  "message": "OTP verified successfully",
+  "tokens": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTl2aHQ3MDE5b21sMDhiMjdvMmM3dSIsImVtYWlsIjoiaW5ub2NlbnRlZmVha3BveWlib0BnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTQwNTM0LCJleHAiOjE3NjQ1NDQxMzQsImF1ZCI6InNtYy11c2VycyIsImlzcyI6InNtYy1hdXRoLXNlcnZpY2UifQ.shX0mFhh2CtAe5Th9py0wAsxN2HooT0cNdjTMtJbuM0",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTl2aHQ3MDE5b21sMDhiMjdvMmM3dSIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTQwNTM0LCJhdWQiOiJzbWMtdXNlcnMiLCJpc3MiOiJzbWMtYXV0aC1zZXJ2aWNlIn0.T2A7Fio9TAn0nAdjuad1N1o65mhJi3t8l2CMcNpmCfE"
+  }
+}
+Status Code: 200
+{
+  "message": "Client created successfully",
+  "client": {
+    "id": "cmim9vix0019wml08oncofngk",
+    "name": "Jill Ziemann DVM",
+    "description": "Auth-Testing",
+    "redirect_uris": [
+      "http://localhost:3000"
+    ],
+    "authorized_js_origins": [],
+    "permissions": [
+      "profile:read"
+    ],
+    "is_active": true,
+    "created_at": "2025-11-30T22:08:55.428Z",
+    "updated_at": "2025-11-30T22:08:55.428Z"
+  },
+  "client_secret": "17192470986459376339936692949044"
+}
+Status Code: 201
+{
+  "message": "You are not authenticated",
+  "reason": "bad_token"
+}
+Status Code: 401

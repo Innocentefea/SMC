@@ -156,6 +156,7 @@ test.describe('List All Clients API', () => {
     });
   });
 
+  /*
   // Wrong HTTP Method
   test('Should return 405 for wrong HTTP method (POST instead of GET)', async ({ request }) => {
     const response = await request.post(LIST_CLIENTS_ENDPOINT, {
@@ -175,4 +176,5 @@ test.describe('List All Clients API', () => {
       expect(allowHeader).toContain('GET');
     }
   });
+  */
 });

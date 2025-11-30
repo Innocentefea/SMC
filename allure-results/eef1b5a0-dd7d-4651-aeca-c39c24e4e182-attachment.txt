@@ -1,1 +1,0 @@
-WARNING: Rate limit 429 was not enforced after 10 attempts.

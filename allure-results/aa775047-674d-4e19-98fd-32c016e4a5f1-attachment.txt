@@ -1,0 +1,13 @@
+{
+  "message": "OTP verified successfully",
+  "tokens": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTl2bGRxMDFheW1sMDgzbHdqcm85MiIsImVtYWlsIjoiaW5ub2NlbnRlZmVha3BveWlib0BnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTQwNTM4LCJleHAiOjE3NjQ1NDQxMzgsImF1ZCI6InNtYy11c2VycyIsImlzcyI6InNtYy1hdXRoLXNlcnZpY2UifQ.Hpa4WM14jmZxeM0pivz63fkSfxbf-SouVsHrsvDHJLw",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTl2bGRxMDFheW1sMDgzbHdqcm85MiIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTQwNTM4LCJhdWQiOiJzbWMtdXNlcnMiLCJpc3MiOiJzbWMtYXV0aC1zZXJ2aWNlIn0.vxofPGSy4-bvxdwvxLXAXv0bGiEkPOAl99xYHV9jEn4"
+  }
+}
+Status Code: 200
+{
+  "message": "You are not authenticated",
+  "reason": "bad_token"
+}
+Status Code: 401

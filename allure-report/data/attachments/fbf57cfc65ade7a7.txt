@@ -1,0 +1,37 @@
+{
+  "message": "OTP verified successfully",
+  "tokens": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTl2aHQ3MDE5bW1sMDgxenEwOGV0ayIsImVtYWlsIjoiaW5ub2NlbnRlZmVha3BveWlib0BnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTQwNTM0LCJleHAiOjE3NjQ1NDQxMzQsImF1ZCI6InNtYy11c2VycyIsImlzcyI6InNtYy1hdXRoLXNlcnZpY2UifQ.3TRxmXX-6khOfT30nAR48AGn7Ryxlb-akfa3oq7E6wI",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTl2aHQ3MDE5bW1sMDgxenEwOGV0ayIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTQwNTM0LCJhdWQiOiJzbWMtdXNlcnMiLCJpc3MiOiJzbWMtYXV0aC1zZXJ2aWNlIn0.HNljn0RMeHMpVST8eQ7leJvHX8MF4c_GlvE79JrTF9Q"
+  }
+}
+Status Code: 200
+{
+  "message": "Client created successfully",
+  "client": {
+    "id": "cmim9vix1019yml08xfgeb5ls",
+    "name": "Dr. Jodi Hodkiewicz",
+    "description": "Auth-Testing",
+    "redirect_uris": [
+      "http://localhost:3000"
+    ],
+    "authorized_js_origins": [],
+    "permissions": [
+      "profile:read"
+    ],
+    "is_active": true,
+    "created_at": "2025-11-30T22:08:55.430Z",
+    "updated_at": "2025-11-30T22:08:55.430Z"
+  },
+  "client_secret": "70603261105566822908309610258407"
+}
+Status Code: 201
+{
+  "success": false,
+  "error": {
+    "redirect_uri": [
+      "Required"
+    ]
+  }
+}
+Status Code: 422

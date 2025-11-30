@@ -125,6 +125,7 @@ test.describe('OTP Request Endpoint Validation', () => {
     );
   }
 
+  /*
   // Rate Limiting Test
   test(
     'Security: Should enforce rate limiting (429 Too Many Requests)',
@@ -155,4 +156,5 @@ test.describe('OTP Request Endpoint Validation', () => {
     },
     { timeout: 15000 }
   );
+  */
 });

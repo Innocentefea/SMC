@@ -1,0 +1,33 @@
+{
+  "message": "OTP verified successfully",
+  "tokens": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTl2aHQ2MDE5a21sMDg5ZnhibXM0NyIsImVtYWlsIjoiaW5ub2NlbnRlZmVha3BveWlib0BnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTQwNTM0LCJleHAiOjE3NjQ1NDQxMzQsImF1ZCI6InNtYy11c2VycyIsImlzcyI6InNtYy1hdXRoLXNlcnZpY2UifQ.8FHENkyVjmkmvcOaJW5b1cb22A_niJzkdsh3TWjU4wU",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTl2aHQ2MDE5a21sMDg5ZnhibXM0NyIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTQwNTM0LCJhdWQiOiJzbWMtdXNlcnMiLCJpc3MiOiJzbWMtYXV0aC1zZXJ2aWNlIn0.pmD6qmH0PCXT3ytHeH-pJZZoiTe_Rv--XcNha0vxvNE"
+  }
+}
+Status Code: 200
+{
+  "message": "Client created successfully",
+  "client": {
+    "id": "cmim9vixm01a2ml08wrdo723q",
+    "name": "Geoffrey Langosh",
+    "description": "Auth-Testing",
+    "redirect_uris": [
+      "http://localhost:3000"
+    ],
+    "authorized_js_origins": [],
+    "permissions": [
+      "profile:read"
+    ],
+    "is_active": true,
+    "created_at": "2025-11-30T22:08:55.451Z",
+    "updated_at": "2025-11-30T22:08:55.451Z"
+  },
+  "client_secret": "38308865152090964839900198544746"
+}
+Status Code: 201
+{
+  "message": "You are not authenticated",
+  "reason": "bad_token"
+}
+Status Code: 401

@@ -1,0 +1,37 @@
+{
+  "message": "OTP verified successfully",
+  "tokens": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTl2aWJwMDE5dW1sMDh6ZHdlZXJ4YiIsImVtYWlsIjoiaW5ub2NlbnRlZmVha3BveWlib0BnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTQwNTM0LCJleHAiOjE3NjQ1NDQxMzQsImF1ZCI6InNtYy11c2VycyIsImlzcyI6InNtYy1hdXRoLXNlcnZpY2UifQ.6qCQeR8MltPNsb-JPIO_VrwHfCvOxu1WJDYQw5V6amo",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjbWdnbWJ6YmQwMDAxbzEwOG5kMWNzZmcwIiwic2lkIjoiY21pbTl2aWJwMDE5dW1sMDh6ZHdlZXJ4YiIsInBlcm1zIjpbXSwiaWF0IjoxNzY0NTQwNTM0LCJhdWQiOiJzbWMtdXNlcnMiLCJpc3MiOiJzbWMtYXV0aC1zZXJ2aWNlIn0.pteq3vTHsCxdusbYCL1Fa2_ep5lU_tUrpirJ_NGOWZ0"
+  }
+}
+Status Code: 200
+{
+  "message": "Client created successfully",
+  "client": {
+    "id": "cmim9viyn01a4ml08ohdfkom9",
+    "name": "Sally Stanton",
+    "description": "Auth-Testing",
+    "redirect_uris": [
+      "http://localhost:3000"
+    ],
+    "authorized_js_origins": [],
+    "permissions": [
+      "profile:read"
+    ],
+    "is_active": true,
+    "created_at": "2025-11-30T22:08:55.487Z",
+    "updated_at": "2025-11-30T22:08:55.487Z"
+  },
+  "client_secret": "43584481574555047965053913716220"
+}
+Status Code: 201
+{
+  "success": false,
+  "error": {
+    "client_id": [
+      "Required"
+    ]
+  }
+}
+Status Code: 422
